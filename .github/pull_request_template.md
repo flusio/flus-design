@@ -8,6 +8,7 @@
 
 - [ ] Code is manually tested
 - [ ] Interface works on both mobiles and big screens
+- [ ] Interface works in both light and dark modes
 - [ ] Interface works on both Firefox and Chrome
 - [ ] Accessibility has been tested
 - [ ] Copyright notices are up to date
