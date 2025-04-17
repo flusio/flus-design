@@ -1,8 +1,45 @@
 /* This file is part of Flus Design. */
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+@import "./_reset.css";
+@import "./variables/colors.tokens.css";
+@import "./variables/colors.dark.css";
+@import "./variables/colors.light.css";
+@import "./variables/sizes.css";
+@import "./utils/accessibility.css";
+@import "./utils/cols.css";
+@import "./utils/flow.css";
+@import "./utils/fonts.css";
+@import "./utils/text.css";
+@import "./utils/wrapper.css";
+@import "./components/anchors.css";
+@import "./components/badges.css";
+@import "./components/buttons.css";
+@import "./components/cards.css";
+@import "./components/codes.css";
+@import "./components/forms/checkboxes.css";
+@import "./components/forms/groups.css";
+@import "./components/forms/labels.css";
+@import "./components/forms/radios.css";
+@import "./components/forms/selects.css";
+@import "./components/forms/texts.css";
+@import "./components/icons.css";
+@import "./components/images.css";
+@import "./components/lists.css";
+@import "./components/panels.css";
+@import "./components/quotes.css";
+@import "./components/tables.css";
+
+html {
+    font-size: 120%;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Raleway, system-ui, sans-serif;
+    line-height: 1.4;
 }

@@ -17,8 +17,8 @@
     "src/*"
   ],
   "scripts": {
-    "watch": "esbuild --bundle --loader:.woff=file --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dev_build --watch=forever src/stylesheets/application.css",
-    "build": "esbuild --bundle --loader:.woff=file --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify src/stylesheets/application.css",
+    "watch": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dev_build --watch=forever src/stylesheets/application.css",
+    "build": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify src/stylesheets/application.css",
     "lint": "biome lint --error-on-warnings --config-path=.biome.json && biome format --error-on-warnings --config-path=.biome.json"
   },
   "devDependencies": {

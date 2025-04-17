@@ -1,0 +1,26 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.flow > * {
+    --flow-size: var(--space-medium);
+}
+
+.flow--smaller > * {
+    --flow-size: var(--space-smaller);
+}
+
+.flow--small > * {
+    --flow-size: var(--space-small);
+}
+
+.flow--large > * {
+    --flow-size: var(--space-large);
+}
+
+.flow--larger > * {
+    --flow-size: var(--space-larger);
+}
+
+.flow > * + * {
+    margin-top: var(--flow-size);
+}

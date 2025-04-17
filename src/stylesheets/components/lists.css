@@ -1,0 +1,43 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.list--nostyle {
+    padding: 0;
+
+    list-style: none;
+}
+
+.list--inline > * {
+    display: inline-block;
+}
+
+.list--padded > li {
+    padding: var(--space-small);
+}
+
+.list--border {
+    border: 1px solid var(--color-grey-line);
+    border-radius: var(--border-radius);
+}
+
+.list--border > li + li {
+    border-top: 1px solid var(--color-grey-line);
+}
+
+.list--strip > li:first-child {
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.list--strip > li:last-child {
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+
+.list--strip > li:nth-child(odd) {
+    background-color: var(--color-grey-bg-subtle);
+}
+
+.list--strip > li:nth-child(even) {
+    background-color: var(--color-grey-bg);
+}

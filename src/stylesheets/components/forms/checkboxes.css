@@ -1,0 +1,85 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+/**
+ * Accessible custom checkboxes and radio buttons.
+ * @see https://www.a11ywithlindsey.com/blog/create-custom-keyboard-accesible-checkboxes
+ */
+input[type="checkbox"] {
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+
+    width: 1px;
+    height: 1px;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    border-radius: var(--border-radius-small);
+}
+
+input[type="checkbox"][hidden] + label {
+    display: none;
+}
+
+input[type="checkbox"] + label::before {
+    --checkbox-background-color: var(--color-white);
+    --checkbox-border-color: var(--color-grey-solid);
+
+    content: "";
+
+    position: relative;
+
+    width: 25px;
+    height: 25px;
+    margin-right: var(--space-small);
+
+    flex-shrink: 0;
+
+    background-color: var(--checkbox-background-color);
+    border: 1px solid var(--checkbox-border-color);
+    border-radius: var(--border-radius-small);
+
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+[data-color-scheme="dark"] input[type="checkbox"] + label::before {
+    --checkbox-background-color: var(--color-rangoon);
+}
+
+input[type="checkbox"]:focus + label {
+    outline: var(--outline-width) solid var(--outline-color);
+    outline-offset: var(--outline-offset);
+}
+
+input[type="checkbox"]:checked + label::after {
+    content: "";
+
+    position: absolute;
+
+    width: 15px;
+    height: 7px;
+    margin-top: -4px;
+    margin-left: 5px;
+
+    border-bottom: 2px solid currentcolor;
+    border-left: 2px solid currentcolor;
+
+    transform: rotate(-45deg);
+}
+
+input[type="checkbox"][disabled] + label {
+    color: var(--color-grey-text);
+    font-weight: normal;
+}
+
+input[type="checkbox"][disabled] + label::before {
+    --checkbox-background-color: var(--color-grey-base);
+}

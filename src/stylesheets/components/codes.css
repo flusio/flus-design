@@ -1,0 +1,32 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+code,
+kbd {
+    padding-right: var(--space-smaller);
+    padding-left: var(--space-smaller);
+
+    color: var(--color-accent-text-contrast);
+
+    background-color: var(--color-accent-bg);
+    border-radius: var(--border-radius-small);
+}
+
+pre {
+    padding: var(--space-medium);
+
+    overflow: auto;
+
+    color: var(--color-teal1);
+
+    background-color: var(--color-olive12);
+    border-radius: var(--border-radius);
+}
+
+pre code {
+    padding: 0;
+
+    color: currentcolor;
+
+    background-color: transparent;
+}

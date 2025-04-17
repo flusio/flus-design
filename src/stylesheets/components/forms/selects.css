@@ -1,0 +1,40 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+select {
+    --select-background-color: var(--color-white);
+    --select-border-color: var(--color-grey-solid);
+    --select-icon-url: url("../../../icons/angle-down.svg");
+    --select-icon-size: 1.5rem;
+
+    width: 100%;
+    padding: var(--space-small);
+
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-normal);
+    line-height: 1.5;
+    text-overflow: ellipsis;
+
+    background-color: var(--select-background-color);
+    border: 1px solid var(--select-border-color);
+    border-radius: var(--border-radius);
+
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+[data-color-scheme="dark"] select {
+    --select-background-color: var(--color-rangoon);
+    --select-icon-url: url("../../../icons/angle-down-light.svg");
+}
+
+select:not([multiple]) {
+    padding-right: calc(var(--space-small) * 2 + var(--select-icon-size));
+
+    background-image: var(--select-icon-url);
+    background-repeat: no-repeat;
+    background-position: right var(--space-small) top 50%;
+    background-size: var(--select-icon-size);
+
+    appearance: none;
+}

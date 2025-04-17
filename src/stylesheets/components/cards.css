@@ -1,0 +1,52 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.card {
+    --card-padding: var(--space-medium);
+    --card-color: currentcolor;
+    --card-background-color: transparent;
+
+    position: relative;
+    display: flex;
+    padding: var(--card-padding);
+
+    flex-direction: column;
+
+    color: var(--card-color);
+
+    background-color: var(--card-background-color);
+    border-radius: var(--border-radius);
+}
+
+.card--large {
+    --card-padding: var(--space-large);
+}
+
+.card--grey {
+    --card-color: var(--color-grey-text-contrast);
+    --card-background-color: var(--color-grey-bg-subtle);
+}
+
+.card--accent {
+    --card-color: var(--color-accent-text-contrast);
+    --card-background-color: var(--color-accent-bg-subtle);
+}
+
+.card--gable {
+    --card-color: var(--color-pampas);
+    --card-background-color: var(--color-gable);
+}
+
+.card--topaz {
+    --card-color: var(--color-rangoon);
+    --card-background-color: var(--color-topaz);
+}
+
+.card--caribbean {
+    --card-color: var(--color-rangoon);
+    --card-background-color: var(--color-caribbean);
+}
+
+.card__body {
+    flex: 1;
+}

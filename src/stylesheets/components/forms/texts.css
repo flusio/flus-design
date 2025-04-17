@@ -1,0 +1,37 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+input,
+textarea {
+    --input-background-color: var(--color-white);
+    --input-border-color: var(--color-grey-solid);
+
+    width: 100%;
+    padding: var(--space-small);
+
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--font-size-normal);
+    line-height: 1.5;
+
+    background-color: var(--input-background-color);
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--border-radius);
+
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+[data-color-scheme="dark"] input,
+[data-color-scheme="dark"] textarea {
+    --input-background-color: var(--color-rangoon);
+}
+
+textarea {
+    max-width: 100%;
+    min-height: 10rem;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+    --input-border-color: var(--color-danger-solid);
+}
