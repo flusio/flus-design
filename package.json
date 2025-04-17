@@ -12,7 +12,10 @@
   "bugs": {
     "url": "https://github.com/flusio/flus-design/issues"
   },
-  "main": "dist/application.css",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "scripts": {
     "watch": "esbuild --bundle --loader:.woff=file --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dev_build --watch=forever src/stylesheets/application.css",
     "build": "esbuild --bundle --loader:.woff=file --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify src/stylesheets/application.css",

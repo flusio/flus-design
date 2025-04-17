@@ -73,6 +73,23 @@ Once the version tag is pushed, you must publish the version on GitHub:
 4. copy the content of the changelog corresponding to the version;
 5. you should adapt the title levels in Markdown (i.e. titles of level 3 `###` must be changed by titles of level 2 `##`);
 
+## Publish on NPM
+
+Make sure you've setup a NPM `authToken` in the `.npmrc`.
+If not done yet, execute:
+
+```console
+$ echo '//registry.npmjs.org/:_authToken=<YOUR TOKEN>' > .npmrc
+```
+
+Note that you can generate a (classic) "publish" token on [npmjs.com](https://www.npmjs.com), under the "Access tokens" menu.
+
+Then, publish the version on NPM with:
+
+```console
+$ make publish
+```
+
 ## Fix mistakes made during the release
 
 You may realize you made a mistake (e.g. commited a file which should not, a typo in the changelog) during the release process.

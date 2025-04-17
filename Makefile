@@ -31,7 +31,7 @@ ifeq ($(LINTER), $(filter $(LINTER), all biome))
 endif
 
 .PHONY: release
-release: ## Release a new version (take a VERSION argument)
+release: build ## Release a new version (take a VERSION argument)
 ifndef VERSION
 	$(error You need to provide a "VERSION" argument)
 endif
@@ -40,6 +40,10 @@ endif
 	git add .
 	git commit -m "release: Publish version v$(VERSION)"
 	git tag -a v$(VERSION) -m "Release version v$(VERSION)"
+
+.PHONY: publish
+publish: ## Publish the package on npmjs.com
+	$(NPM) publish --access public
 
 .PHONY: help
 help:
