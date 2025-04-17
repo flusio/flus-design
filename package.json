@@ -17,12 +17,14 @@
     "src/*"
   ],
   "scripts": {
-    "watch": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dev_build --watch=forever src/stylesheets/application.css",
+    "watch": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=demo/assets --watch=forever src/stylesheets/application.css",
     "build": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify src/stylesheets/application.css",
+    "build:icons": "svg-sprite --symbol --symbol-dest=. --symbol-sprite=icons.svg --dest=dist src/icons/*",
     "lint": "biome lint --error-on-warnings --config-path=.biome.json && biome format --error-on-warnings --config-path=.biome.json"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "esbuild": "0.25.2"
+    "esbuild": "0.25.2",
+    "svg-sprite": "^2.0.4"
   }
 }

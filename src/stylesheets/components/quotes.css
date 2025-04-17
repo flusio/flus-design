@@ -2,14 +2,34 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 blockquote {
+    position: relative;
+
     margin-left: 0;
     margin-right: 0;
-    padding: var(--space-medium);
+    padding: var(--space-large) var(--space-large) var(--space-large) var(--space-medium);
 
     color: var(--color-accent-text-contrast);
     font-style: italic;
 
     background-color: var(--color-accent-bg-subtle);
-    border-left: 10px solid var(--color-accent-solid);
+    border-left: 10px solid var(--color-caribbean);
     border-radius: var(--border-radius);
+}
+
+blockquote::before {
+    content: "";
+
+    position: absolute;
+    top: var(--space-smaller);
+    right: var(--space-smaller);
+
+    display: block;
+    width: 2rem;
+    height: 2rem;
+
+    background-color: var(--color-caribbean);
+    mask-image: url("../../icons/block-quote.svg");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
 }

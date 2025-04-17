@@ -23,6 +23,10 @@ build: ## Build the dist assets
 	rm -rf dist
 	$(NPM) run build
 
+.PHONY: icons
+icons: ## Build the icons asset
+	$(NPM) run build:icons
+
 .PHONY: lint
 lint: LINTER ?= all
 lint: ## Execute the linters (can take a LINTER argument)
@@ -31,7 +35,7 @@ ifeq ($(LINTER), $(filter $(LINTER), all biome))
 endif
 
 .PHONY: release
-release: build ## Release a new version (take a VERSION argument)
+release: build icons ## Release a new version (take a VERSION argument)
 ifndef VERSION
 	$(error You need to provide a "VERSION" argument)
 endif
