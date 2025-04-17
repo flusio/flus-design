@@ -1,0 +1,195 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.dark-mode-navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+    padding: var(--space-small);
+
+    background-color: var(--color-grey-bg);
+    box-shadow: 0 1px 3px var(--color-box-shadow);
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+}
+
+.block--accent-base {
+    background-color: var(--color-accent-base);
+}
+
+.block--accent-bg-subtle {
+    background-color: var(--color-accent-bg-subtle);
+}
+
+.block--accent-bg {
+    background-color: var(--color-accent-bg);
+}
+
+.block--accent-bg-hover {
+    background-color: var(--color-accent-bg-hover);
+}
+
+.block--accent-bg-active {
+    background-color: var(--color-accent-bg-active);
+}
+
+.block--accent-line {
+    background-color: var(--color-accent-line);
+}
+
+.block--accent-border {
+    background-color: var(--color-accent-border);
+}
+
+.block--accent-border-hover {
+    background-color: var(--color-accent-border-hover);
+}
+
+.block--accent-solid {
+    background-color: var(--color-accent-solid);
+}
+
+.block--accent-solid-hover {
+    background-color: var(--color-accent-solid-hover);
+}
+
+.block--accent-text {
+    background-color: var(--color-accent-text);
+}
+
+.block--accent-text-contrast {
+    background-color: var(--color-accent-text-contrast);
+}
+
+.block--grey-base {
+    background-color: var(--color-grey-base);
+}
+
+.block--grey-bg-subtle {
+    background-color: var(--color-grey-bg-subtle);
+}
+
+.block--grey-bg {
+    background-color: var(--color-grey-bg);
+}
+
+.block--grey-bg-hover {
+    background-color: var(--color-grey-bg-hover);
+}
+
+.block--grey-bg-active {
+    background-color: var(--color-grey-bg-active);
+}
+
+.block--grey-line {
+    background-color: var(--color-grey-line);
+}
+
+.block--grey-border {
+    background-color: var(--color-grey-border);
+}
+
+.block--grey-border-hover {
+    background-color: var(--color-grey-border-hover);
+}
+
+.block--grey-solid {
+    background-color: var(--color-grey-solid);
+}
+
+.block--grey-solid-hover {
+    background-color: var(--color-grey-solid-hover);
+}
+
+.block--grey-text {
+    background-color: var(--color-grey-text);
+}
+
+.block--grey-text-contrast {
+    background-color: var(--color-grey-text-contrast);
+}
+
+.block--danger-base {
+    background-color: var(--color-danger-base);
+}
+
+.block--danger-bg-subtle {
+    background-color: var(--color-danger-bg-subtle);
+}
+
+.block--danger-bg {
+    background-color: var(--color-danger-bg);
+}
+
+.block--danger-bg-hover {
+    background-color: var(--color-danger-bg-hover);
+}
+
+.block--danger-bg-active {
+    background-color: var(--color-danger-bg-active);
+}
+
+.block--danger-line {
+    background-color: var(--color-danger-line);
+}
+
+.block--danger-border {
+    background-color: var(--color-danger-border);
+}
+
+.block--danger-border-hover {
+    background-color: var(--color-danger-border-hover);
+}
+
+.block--danger-solid {
+    background-color: var(--color-danger-solid);
+}
+
+.block--danger-solid-hover {
+    background-color: var(--color-danger-solid-hover);
+}
+
+.block--danger-text {
+    background-color: var(--color-danger-text);
+}
+
+.block--danger-text-contrast {
+    background-color: var(--color-danger-text-contrast);
+}
+
+.block--white {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey-line);
+}
+
+.block--pampas {
+    background-color: var(--color-pampas);
+    border: 1px solid var(--color-grey-line);
+}
+
+.block--rangoon {
+    background-color: var(--color-rangoon);
+    border: 1px solid var(--color-grey-line);
+}
+
+.block--gable {
+    background-color: var(--color-gable);
+}
+
+.block--topaz {
+    background-color: var(--color-topaz);
+}
+
+.block--caribbean {
+    background-color: var(--color-caribbean);
+}
+
+.block--gossip {
+    background-color: var(--color-gossip);
+}

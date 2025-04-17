@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Flus Design — demo page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../dev_build/application.css">
+        <link rel="stylesheet" href="demo.css">
+    </head>
+
+    <body class="panel panel--large wrapper wrapper--larger wrapper--center flow flow--large">
+        <div data-color-scheme="dark" class="dark-mode-navigation">
+            <button id="color-scheme-switch" class="button--small">dark mode</button>
+        </div>
+
+        <h1>
+            Flus Design — demo page
+        </h1>
+
+        <div class="flow">
+            <h2>
+                Palettes
+            </h2>
+
+            <div class="cols cols--gap">
+                <div class="flow flow--small">
+                    <h3>
+                        Accent
+                    </h3>
+
+                    <div class="flow flow--small">
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-base"></div>
+                            <div>--color-accent-base</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-bg-subtle"></div>
+                            <div>--color-accent-bg-subtle</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-bg"></div>
+                            <div>--color-accent-bg</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-bg-hover"></div>
+                            <div>--color-accent-bg-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-bg-active"></div>
+                            <div>--color-accent-bg-active</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-line"></div>
+                            <div>--color-accent-line</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-border"></div>
+                            <div>--color-accent-border</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-border-hover"></div>
+                            <div>--color-accent-border-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-solid"></div>
+                            <div>--color-accent-solid</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-solid-hover"></div>
+                            <div>--color-accent-solid-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-text"></div>
+                            <div>--color-accent-text</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--accent-text-contrast"></div>
+                            <div>--color-accent-text-contrast</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow flow--small">
+                    <h3>
+                        Grey
+                    </h3>
+
+                    <div class="flow flow--small">
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-base"></div>
+                            <div>--color-grey-base</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-bg-subtle"></div>
+                            <div>--color-grey-bg-subtle</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-bg"></div>
+                            <div>--color-grey-bg</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-bg-hover"></div>
+                            <div>--color-grey-bg-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-bg-active"></div>
+                            <div>--color-grey-bg-active</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-line"></div>
+                            <div>--color-grey-line</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-border"></div>
+                            <div>--color-grey-border</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-border-hover"></div>
+                            <div>--color-grey-border-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-solid"></div>
+                            <div>--color-grey-solid</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-solid-hover"></div>
+                            <div>--color-grey-solid-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-text"></div>
+                            <div>--color-grey-text</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--grey-text-contrast"></div>
+                            <div>--color-grey-text-contrast</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flow flow--small">
+                    <h3>
+                        Danger
+                    </h3>
+
+                    <div class="flow flow--small">
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-base"></div>
+                            <div>--color-danger-base</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-bg-subtle"></div>
+                            <div>--color-danger-bg-subtle</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-bg"></div>
+                            <div>--color-danger-bg</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-bg-hover"></div>
+                            <div>--color-danger-bg-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-bg-active"></div>
+                            <div>--color-danger-bg-active</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-line"></div>
+                            <div>--color-danger-line</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-border"></div>
+                            <div>--color-danger-border</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-border-hover"></div>
+                            <div>--color-danger-border-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-solid"></div>
+                            <div>--color-danger-solid</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-solid-hover"></div>
+                            <div>--color-danger-solid-hover</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-text"></div>
+                            <div>--color-danger-text</div>
+                        </div>
+                        <div class="cols cols--always cols--center cols--gap">
+                            <div class="block block--danger-text-contrast"></div>
+                            <div>--color-danger-text-contrast</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flow flow--small">
+                <h3>
+                    Custom tokens
+                </h3>
+
+                <div class="flow">
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--white"></div>
+                        <div>--color-white</div>
+                    </div>
+
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--pampas"></div>
+                        <div>--color-pampas</div>
+                    </div>
+
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--rangoon"></div>
+                        <div>--color-rangoon</div>
+                    </div>
+
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--gable"></div>
+                        <div>--color-gable</div>
+                    </div>
+
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--topaz"></div>
+                        <div>--color-topaz</div>
+                    </div>
+
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--caribbean"></div>
+                        <div>--color-caribbean</div>
+                    </div>
+
+                    <div class="cols cols--always cols--center cols--gap">
+                        <div class="block block--gossip"></div>
+                        <div>--color-gossip</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Anchors
+            </h2>
+
+            <div class="cols cols--gap cols--center">
+                <div>
+                    <a href="#">A standard anchor</a>
+                </div>
+
+                <div>
+                    <a class="anchor--nostyle" href="#">An .anchor--nostyle</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Badges
+            </h2>
+
+            <div class="cols cols--gap cols--center">
+                <div>
+                    <span class="badge">
+                        .badge
+                    </span>
+                </div>
+
+                <div>
+                    <span class="badge badge--border">
+                        .badge--border
+                    </span>
+                </div>
+
+                <div>
+                    <span class="badge badge--accent">
+                        .badge--accent
+                    </span>
+                </div>
+
+                <div>
+                    <span class="badge badge--accent badge--border">
+                        .badge--accent .badge--border
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Buttons
+            </h2>
+
+            <div class="cols cols--gap cols--center">
+                <div>
+                    <button>
+                        .button
+                    </button>
+                </div>
+
+                <div>
+                    <button class="button--primary">
+                        .button--primary
+                    </button>
+                </div>
+
+                <div>
+                    <button class="button--danger">
+                        .button--danger
+                    </button>
+                </div>
+
+                <div>
+                    <button class="button--ghost">
+                        .button--ghost
+                    </button>
+                </div>
+
+                <div>
+                    <button class="button--small">
+                        .button--small
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Cards
+            </h2>
+
+            <div class="cols cols--gap">
+                <div class="col--size4 card">
+                    <div class="card__body flow">
+                        <h3>.card</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, one of these days i'm going to get that red dot, just you wait and see lie in the sink all day.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col--size4 card card--grey">
+                    <div class="card__body flow">
+                        <h3>.card--grey</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, love fish eat a rug and furry furry hairs everywhere oh no human coming lie on counter don't get off counter.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col--size4 card card--accent">
+                    <div class="card__body flow">
+                        <h3>.card--accent</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cols cols--gap">
+                <div class="col--size4 card card--gable">
+                    <div class="card__body flow">
+                        <h3>.card--gable</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, love fish eat a rug and furry furry hairs everywhere oh no human coming lie on counter don't get off counter.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col--size4 card card--topaz">
+                    <div class="card__body flow">
+                        <h3>.card--topaz</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col--size4 card card--caribbean">
+                    <div class="card__body flow">
+                        <h3>.card--caribbean</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, one of these days i'm going to get that red dot, just you wait and see lie in the sink all day.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cols cols--gap">
+                <div class="col--size4 card card--caribbean card--large">
+                    <div class="card__body flow">
+                        <h3>.card--large</h3>
+
+                        <p>
+                            Cat ipsum dolor sit amet, one of these days i'm going to get that red dot, just you wait and see lie in the sink all day.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col--extend"></div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Code
+            </h2>
+
+            <div class="flow flow--small">
+                <p>
+                    <code>code</code>, <kbd>kbd</kbd>
+                </p>
+
+                <div>
+<pre><code>pre code {
+    some: css;
+}</code></pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Forms
+            </h2>
+
+            <div class="flow">
+                <h3>
+                    Inputs
+                </h3>
+
+                <div class="flow flow--smaller">
+                    <label for="input-normal">
+                        Normal field
+                        <small class="text--secondary">
+                            (some details)
+                        </small>
+                    </label>
+
+                    <input id="input-normal" type="text" aria-describedby="input-normal-caption">
+
+                    <p class="form-group__caption" id="input-normal-caption">
+                        More information
+                    </p>
+                </div>
+
+                <div class="flow flow--smaller">
+                    <label for="input-error">
+                        Error field
+                    </label>
+
+                    <p class="form-group__error" id="input-error-error">
+                        Erreur&nbsp;: there is an error.
+                    </p>
+
+                    <input id="input-error" type="text" aria-invalid="true" aria-errormessage="input-error-error">
+                </div>
+
+                <div class="flow flow--smaller">
+                    <label for="input-textarea">
+                        Textarea
+                    </label>
+
+                    <textarea id="input-textarea"></textarea>
+                </div>
+
+                <div class="flow flow--smaller">
+                    <label for="input-select">
+                        Select field
+                    </label>
+
+                    <select id="input-select">
+                        <option>Foo</option>
+                        <option>Bar</option>
+                        <option>Baz</option>
+                    </select>
+                </div>
+
+                <div class="cols cols--gap">
+                    <div>
+                        <input id="input-checkbox" type="checkbox">
+
+                        <label for="input-checkbox">
+                            A checkbox
+                        </label>
+                    </div>
+
+                    <div>
+                        <input id="input-checkbox-disabled" type="checkbox" disabled checked>
+
+                        <label for="input-checkbox-disabled">
+                            A disabled checkbox
+                        </label>
+                    </div>
+
+                    <div>
+                        <input id="input-radio" type="radio">
+
+                        <label for="input-radio">
+                            A radio
+                        </label>
+                    </div>
+
+                    <div>
+                        <input id="input-radio-disabled" type="radio" disabled checked>
+
+                        <label for="input-radio-disabled">
+                            A disabled radio
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Lists
+            </h2>
+
+            <div class="flow flow--small">
+                <h3>
+                    .list--nostyle
+                </h3>
+
+                <ul class="list--nostyle">
+                    <li>Foo</li>
+                    <li>Bar</li>
+                    <li>Baz</li>
+                </ul>
+            </div>
+
+            <div class="flow flow--small">
+                <h3>
+                    .list--nostyle .list--inline
+                </h3>
+
+                <ul class="list--nostyle list--inline">
+                    <li>Foo</li>
+                    <li>Bar</li>
+                    <li>Baz</li>
+                </ul>
+            </div>
+
+            <div class="wrapper flow flow--small">
+                <h3>
+                    .list--nostyle .list--padded .list--border .list--strip
+                </h3>
+
+                <ul class="list--nostyle list--padded list--border list--strip">
+                    <li>Foo</li>
+                    <li>Bar</li>
+                    <li>Baz</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Panels
+            </h2>
+
+            <div class="panel flow">
+                <h3>.panel</h3>
+
+                <p>
+                    Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                </p>
+            </div>
+
+            <div class="cols cols--gap">
+                <div class="panel panel--grey panel--large flow">
+                    <h3>.panel--grey</h3>
+
+                    <p>
+                        Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                    </p>
+                </div>
+
+                <div class="panel panel--accent panel--large flow">
+                    <h3>.panel--accent</h3>
+
+                    <p>
+                        Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cols cols--gap">
+                <div class="panel panel--gable panel--rounded panel--large flow">
+                    <h3>.panel--gabble .panel--rounded</h3>
+
+                    <p>
+                        Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                    </p>
+                </div>
+
+                <div class="panel panel--topaz panel--rounded panel--large flow">
+                    <h3>.panel--topaz .panel--rounded</h3>
+
+                    <p>
+                        Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                    </p>
+                </div>
+
+                <div class="panel panel--caribbean panel--rounded panel--large flow">
+                    <h3>.panel--caribbean .panel--rounded</h3>
+
+                    <p>
+                        Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                    </p>
+                </div>
+            </div>
+
+            <div class="panel panel--grey panel--larger flow">
+                <h3>.panel--larger</h3>
+
+                <p>
+                    Cat ipsum dolor sit amet, sleep on dog bed, force dog to sleep on floor for run off table persian cat jump eat fish. Brown cats with pink ears cats secretly make all the worlds muffins stare at imaginary bug play riveting piece on synthesizer keyboard yet allways wanting food but small kitty warm kitty little balls of fur run up and down stairs. Throwup on your pillow my cat stared at me he was sipping his tea, too. Take a big fluffing crap ðŸ’©.
+                </p>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Tables
+            </h2>
+
+            <table>
+                <tr>
+                    <th>Foo</th>
+                    <th>Bar</th>
+                    <th>Baz</th>
+                </tr>
+
+                <tr>
+                    <td>Spam</td>
+                    <td>Ham</td>
+                    <td>Egg</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Text
+            </h2>
+
+            <div class="cols cols--gap cols--center">
+                <p class="text--secondary">
+                    .text--secondary
+                </p>
+
+                <p class="text--bold">
+                    .text--bold
+                </p>
+
+                <p class="text--bolder">
+                    .text--bolder
+                </p>
+            </div>
+
+            <div class="cols cols--gap cols--center">
+                <p class="text--smaller">
+                    .text--smaller
+                </p>
+
+                <p class="text--small">
+                    .text--small
+                </p>
+
+                <p class="text--normal">
+                    .text--normal
+                </p>
+
+                <p class="text--big">
+                    .text--big
+                </p>
+
+                <p class="text--bigger">
+                    .text--bigger
+                </p>
+            </div>
+        </div>
+
+        <div class="flow">
+            <h2>
+                Quotes
+            </h2>
+
+            <blockquote>
+                Cat ipsum dolor sit amet, one of these days i'm going to get that red dot, just you wait and see lie in the sink all day.
+            </blockquote>
+        </div>
+    </body>
+
+    <script>
+        const colorSchemeSwitch = document.getElementById('color-scheme-switch');
+        colorSchemeSwitch.addEventListener('click', (event) => {
+            const currentColorScheme = document.documentElement.dataset.colorScheme;
+            if (currentColorScheme === 'light') {
+                document.documentElement.dataset.colorScheme = 'dark';
+                colorSchemeSwitch.innerText = 'light mode';
+            } else {
+                document.documentElement.dataset.colorScheme = 'light';
+                colorSchemeSwitch.innerText = 'dark mode';
+            }
+        });
+    </script>
+</html>
