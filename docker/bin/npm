@@ -1,0 +1,9 @@
+#!/bin/bash
+# This file is part of Flus Design.
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+SCRIPT_PATH=$(dirname $(realpath -s $0))
+APP_PATH=$SCRIPT_PATH/../../
+USER=$(id -u):$(id -g)
+
+docker run --rm -ti -v $APP_PATH:/app -w /app -u $USER node:20-alpine npm "$@"

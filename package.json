@@ -1,0 +1,25 @@
+{
+  "name": "@flus/design",
+  "version": "0.0.0",
+  "description": "A design system for the websites and applications of Flus.",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://github.com/flusio/flus-design#readme",
+  "author": "Flus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flusio/flus-design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flusio/flus-design/issues"
+  },
+  "main": "dist/application.css",
+  "scripts": {
+    "watch": "esbuild --bundle --loader:.woff=file --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dev_build --watch=forever src/stylesheets/application.css",
+    "build": "esbuild --bundle --loader:.woff=file --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify src/stylesheets/application.css",
+    "lint": "biome lint --error-on-warnings --config-path=.biome.json && biome format --error-on-warnings --config-path=.biome.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "esbuild": "0.25.2"
+  }
+}
