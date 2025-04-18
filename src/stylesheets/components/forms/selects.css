@@ -4,7 +4,6 @@
 select {
     --select-background-color: var(--color-white);
     --select-border-color: var(--color-grey-solid);
-    --select-icon-url: url("../../../icons/angle-down.svg");
     --select-icon-size: 1.5rem;
 
     width: 100%;
@@ -23,18 +22,21 @@ select {
     transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-[data-color-scheme="dark"] select {
-    --select-background-color: var(--color-rangoon);
-    --select-icon-url: url("../../../icons/angle-down-light.svg");
-}
-
 select:not([multiple]) {
     padding-right: calc(var(--space-small) * 2 + var(--select-icon-size));
 
-    background-image: var(--select-icon-url);
+    background-image: url("../../../icons/angle-down.svg");
     background-repeat: no-repeat;
     background-position: right var(--space-small) top 50%;
     background-size: var(--select-icon-size);
 
     appearance: none;
+}
+
+[data-color-scheme="dark"] select {
+    --select-background-color: var(--color-rangoon);
+}
+
+[data-color-scheme="dark"] select:not([multiple]) {
+    background-image: url("../../../icons/angle-down-light.svg");
 }
