@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <title>Flus Design — demo page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/application.css">
+        <link rel="stylesheet" href="./dist/application.css">
         <link rel="stylesheet" href="demo.css">
     </head>
 
@@ -770,7 +770,7 @@
         for (const icon of icons) {
             const name = icon.dataset.icon;
             icon.title = name;
-            icon.innerHTML = `<svg class="icon icon--${name}" aria-hidden="true" width="36" height="36"><use xlink:href="./icons.svg#${name}"></use></svg>`;
+            icon.innerHTML = `<svg class="icon icon--${name}" aria-hidden="true" width="36" height="36"><use xlink:href="./dist/icons.svg#${name}"></use></svg>`;
         }
     </script>
 </html>
