@@ -1,0 +1,22 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.spinner {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-accent-solid);
+
+    border-radius: 100%;
+    animation: sk-scaleout 1.3s infinite ease-in-out;
+}
+
+@keyframes sk-scaleout {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
