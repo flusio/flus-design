@@ -4,9 +4,9 @@
 button,
 .button {
     --button-padding: var(--space-small) var(--space-medium);
-    --button-color: var(--color-grey-text-contrast);
-    --button-background-color: var(--color-grey-bg-subtle);
-    --button-border-color: var(--color-grey-solid);
+    --button-color: currentcolor;
+    --button-background-color: transparent;
+    --button-border-color: currentcolor;
 
     display: inline-block;
     padding: var(--button-padding);
@@ -30,12 +30,12 @@ button,
 
 button:hover,
 .button:hover {
-    --button-background-color: var(--color-grey-bg);
+    --button-background-color: rgb(0 0 0 / 0.05);
 }
 
 button:active,
 .button:active {
-    --button-background-color: var(--color-grey-bg-active);
+    --button-background-color: rgb(0 0 0 / 0.11);
 }
 
 .button--primary {
@@ -63,7 +63,6 @@ button:active,
 }
 
 .button--ghost {
-    --button-background-color: transparent;
     --button-border-color: transparent;
 }
 
