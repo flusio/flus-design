@@ -62,6 +62,14 @@ button:active,
     --button-border-color: var(--color-danger-border-hover);
 }
 
+.button--icon {
+    --button-padding: var(--space-small);
+
+    border-radius: 100%;
+
+    aspect-ratio: 1;
+}
+
 .button--ghost {
     --button-border-color: transparent;
 }
@@ -74,4 +82,8 @@ button:active,
 
 .button--small {
     --button-padding: var(--space-smaller) var(--space-small);
+}
+
+.button--icon.button--small {
+    --button-padding: var(--space-smaller);
 }
