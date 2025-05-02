@@ -47,6 +47,11 @@
     --card-background-color: var(--color-caribbean);
 }
 
+.card--danger {
+    --card-color: var(--color-white);
+    --card-background-color: var(--color-danger-solid);
+}
+
 .card__body {
     flex: 1;
 }

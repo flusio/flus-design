@@ -49,3 +49,8 @@
     --panel-color: var(--color-rangoon);
     --panel-background-color: var(--color-caribbean);
 }
+
+.panel--danger {
+    --panel-color: var(--color-white);
+    --panel-background-color: var(--color-danger-solid);
+}
