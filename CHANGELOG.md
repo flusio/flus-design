@@ -1,5 +1,11 @@
 # Changelog of Flus Design
 
+## 2025-05-15 - 1.2.0
+
+### Improvements
+
+- Add style for disabled buttons ([35b165b](https://github.com/flusio/flus-design/commit/35b165b))
+
 ## 2025-05-02 - 1.1.0
 
 ### New
