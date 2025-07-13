@@ -1,0 +1,10 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+hr {
+    height: 2px;
+
+    background-color: var(--color-grey-solid);
+    border: none;
+    border-radius: var(--border-radius);
+}
