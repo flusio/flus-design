@@ -3,7 +3,7 @@
 
 button,
 .button {
-    --button-padding: var(--space-small) var(--space-medium);
+    --button-padding: var(--space-smaller) var(--space-small);
     --button-color: currentcolor;
     --button-background-color: transparent;
     --button-border-color: currentcolor;
@@ -73,7 +73,7 @@ button:active:not(:disabled),
 }
 
 .button--icon {
-    --button-padding: var(--space-small);
+    --button-padding: var(--space-smaller);
 
     border-radius: 100%;
 
@@ -91,9 +91,9 @@ button:active:not(:disabled),
 }
 
 .button--small {
-    --button-padding: var(--space-smaller) var(--space-small);
+    --button-padding: 0 var(--space-smaller);
 }
 
-.button--icon.button--small {
-    --button-padding: var(--space-smaller);
+.button--big {
+    --button-padding: var(--space-small) var(--space-medium);
 }
