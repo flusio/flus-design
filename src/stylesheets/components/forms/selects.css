@@ -2,6 +2,7 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 select {
+    --select-color: inherit;
     --select-background-color: var(--color-white);
     --select-border-color: var(--color-grey-solid);
     --select-icon-size: 1.5rem;
@@ -9,7 +10,7 @@ select {
     width: 100%;
     padding: var(--space-small);
 
-    color: inherit;
+    color: var(--select-color);
     font-family: inherit;
     font-size: var(--font-size-normal);
     line-height: 1.5;
@@ -39,4 +40,10 @@ select:not([multiple]) {
 
 [data-color-scheme="dark"] select:not([multiple]) {
     background-image: url("../../../icons/angle-down-light.svg");
+}
+
+select:disabled {
+    --select-color: var(--color-grey-text);
+    --select-background-color: var(--color-grey-base);
+    --select-border-color: var(--color-grey-border);
 }

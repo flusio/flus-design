@@ -3,13 +3,14 @@
 
 input,
 textarea {
+    --input-color: inherit;
     --input-background-color: var(--color-white);
     --input-border-color: var(--color-grey-solid);
 
     width: 100%;
     padding: var(--space-small);
 
-    color: inherit;
+    color: var(--input-color);
     font-family: inherit;
     font-size: var(--font-size-normal);
     line-height: 1.5;
@@ -29,6 +30,13 @@ textarea {
 textarea {
     max-width: 100%;
     min-height: 10rem;
+}
+
+input:disabled,
+textarea:disabled {
+    --input-color: var(--color-grey-text);
+    --input-background-color: var(--color-grey-base);
+    --input-border-color: var(--color-grey-border);
 }
 
 input[aria-invalid="true"],

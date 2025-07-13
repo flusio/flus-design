@@ -68,11 +68,11 @@ input[type="radio"]:checked + label::after {
     border-radius: 100%;
 }
 
-input[type="radio"][disabled] + label {
+input[type="radio"]:disabled + label {
     color: var(--color-grey-text);
     font-weight: normal;
 }
 
-input[type="radio"][disabled] + label::before {
+input[type="radio"]:disabled + label::before {
     --radio-background-color: var(--color-grey-base);
 }

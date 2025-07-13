@@ -10,7 +10,7 @@
 
     <body class="panel panel--large wrapper wrapper--larger wrapper--center flow flow--large">
         <div data-color-scheme="dark" class="dark-mode-navigation">
-            <button id="color-scheme-switch" class="button--small">dark mode</button>
+            <button id="color-scheme-switch">dark mode</button>
         </div>
 
         <h1>
@@ -558,6 +558,14 @@
                 </div>
 
                 <div class="flow flow--smaller">
+                    <label for="input-disabled">
+                        Disabled field
+                    </label>
+
+                    <input id="input-disabled" type="text" disabled value="Disabled text">
+                </div>
+
+                <div class="flow flow--smaller">
                     <label for="input-error">
                         Error field
                     </label>
@@ -578,11 +586,31 @@
                 </div>
 
                 <div class="flow flow--smaller">
+                    <label for="input-textarea-disabled">
+                        Disabled textarea
+                    </label>
+
+                    <textarea id="input-textarea-disabled" disabled>Disabled text</textarea>
+                </div>
+
+                <div class="flow flow--smaller">
                     <label for="input-select">
                         Select field
                     </label>
 
                     <select id="input-select">
+                        <option>Foo</option>
+                        <option>Bar</option>
+                        <option>Baz</option>
+                    </select>
+                </div>
+
+                <div class="flow flow--smaller">
+                    <label for="input-select-disabled">
+                        Disabled select field
+                    </label>
+
+                    <select id="input-select-disabled" disabled>
                         <option>Foo</option>
                         <option>Bar</option>
                         <option>Baz</option>
