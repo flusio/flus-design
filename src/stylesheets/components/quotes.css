@@ -2,34 +2,63 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 blockquote {
+    --blockquote-color: var(--color-accent-text-contrast);
+    --blockquote-background-color: var(--color-accent-bg-subtle);
+    --blockquote-icon-color: var(--color-caribbean);
+    --blockquote-icon-position: var(--space-small);
+    --blockquote-icon-size: 1.7rem;
+
     position: relative;
 
     margin-left: 0;
     margin-right: 0;
-    padding: var(--space-large) var(--space-large) var(--space-large) var(--space-medium);
+    padding: var(--space-large) var(--space-medium);
 
-    color: var(--color-accent-text-contrast);
+    color: var(--blockquote-color);
     font-style: italic;
 
-    background-color: var(--color-accent-bg-subtle);
-    border-left: 10px solid var(--color-caribbean);
+    background-color: var(--blockquote-background-color);
     border-radius: var(--border-radius);
+}
+
+@media (min-width: 800px) {
+    blockquote {
+        padding: var(--space-large);
+    }
 }
 
 blockquote::before {
     content: "";
 
     position: absolute;
-    top: var(--space-smaller);
-    right: var(--space-smaller);
+    top: var(--blockquote-icon-position);
+    left: calc(-1 * var(--blockquote-icon-size) / 2);
 
     display: block;
-    width: 2rem;
-    height: 2rem;
+    width: var(--blockquote-icon-size);
+    height: var(--blockquote-icon-size);
 
-    background-color: var(--color-caribbean);
+    background-color: var(--blockquote-icon-color);
     mask-image: url("../../icons/block-quote.svg");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: cover;
+}
+
+blockquote::after {
+    content: "";
+
+    position: absolute;
+    top: calc(var(--blockquote-icon-size) + var(--blockquote-icon-position));
+    bottom: var(--blockquote-icon-position);
+    left: -1px;
+
+    display: block;
+    width: 2px;
+
+    background: linear-gradient(
+        to bottom,
+        var(--blockquote-icon-color),
+        var(--blockquote-background-color)
+    );
 }
