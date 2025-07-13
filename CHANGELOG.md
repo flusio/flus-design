@@ -1,5 +1,19 @@
 # Changelog of Flus Design
 
+## 2025-07-13 - 1.3.0
+
+### New
+
+- Provide style for `<hr>` elements ([6299e5f](https://github.com/flusio/flus-design/commit/6299e5f))
+- Provide the `.card--base` and `.panel--base` classes ([7eb6361](https://github.com/flusio/flus-design/commit/7eb6361))
+
+### Improvements
+
+- Improve the design of the disabled form elements ([d70c036](https://github.com/flusio/flus-design/commit/d70c036))
+- Align all the images correctly ([3dddcb1](https://github.com/flusio/flus-design/commit/3dddcb1))
+- Improve the size of the buttons ([e05c80b](https://github.com/flusio/flus-design/commit/e05c80b))
+- Improve the look of the blockquotes ([c979f63](https://github.com/flusio/flus-design/commit/c979f63))
+
 ## 2025-05-15 - 1.2.0
 
 ### Improvements
