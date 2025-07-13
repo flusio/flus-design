@@ -22,6 +22,14 @@
     --card-padding: var(--space-large);
 }
 
+.card--base {
+    --card-background-color: var(--color-white);
+}
+
+[data-color-scheme="dark"] .card--base {
+    --card-background-color: var(--color-grey-base);
+}
+
 .card--grey {
     --card-color: var(--color-grey-text-contrast);
     --card-background-color: var(--color-grey-bg-subtle);

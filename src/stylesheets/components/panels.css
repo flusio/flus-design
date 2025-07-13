@@ -25,6 +25,14 @@
     border-radius: var(--border-radius);
 }
 
+.panel--base {
+    --panel-background-color: var(--color-white);
+}
+
+[data-color-scheme="dark"] .panel--base {
+    --panel-background-color: var(--color-grey-base);
+}
+
 .panel--grey {
     --panel-color: var(--color-grey-text-contrast);
     --panel-background-color: var(--color-grey-bg-subtle);
