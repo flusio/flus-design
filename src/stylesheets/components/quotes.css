@@ -62,3 +62,11 @@ blockquote::after {
         var(--blockquote-background-color)
     );
 }
+
+blockquote > *:first-child {
+    margin-top: 0;
+}
+
+blockquote > *:last-child {
+    margin-bottom: 0;
+}
