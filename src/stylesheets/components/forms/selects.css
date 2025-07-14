@@ -47,3 +47,7 @@ select:disabled {
     --select-background-color: var(--color-grey-base);
     --select-border-color: var(--color-grey-border);
 }
+
+select[aria-invalid="true"] {
+    --select-border-color: var(--color-danger-solid);
+}
