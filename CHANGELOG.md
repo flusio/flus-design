@@ -1,5 +1,12 @@
 # Changelog of Flus Design
 
+## 2025-07-14 - 1.3.1
+
+### Bug fixes
+
+- Fix the invalid select border color ([eefdc7d](https://github.com/flusio/flus-design/commit/eefdc7d))
+- Fix the margin in the blockquotes ([5bb3c99](https://github.com/flusio/flus-design/commit/5bb3c99))
+
 ## 2025-07-13 - 1.3.0
 
 ### New
