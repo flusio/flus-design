@@ -43,7 +43,9 @@ input[type="radio"] + label::before {
     border: 1px solid var(--radio-border-color);
     border-radius: 50%;
 
-    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition:
+        border-color 0.2s ease-in-out,
+        background-color 0.2s ease-in-out;
 }
 
 [data-color-scheme="dark"] input[type="radio"] + label::before {

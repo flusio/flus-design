@@ -20,7 +20,9 @@ select {
     border: 1px solid var(--select-border-color);
     border-radius: var(--border-radius);
 
-    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition:
+        background-color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out;
 }
 
 select:not([multiple]) {

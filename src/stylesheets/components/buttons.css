@@ -23,7 +23,9 @@ button,
     border: 1px solid var(--button-border-color);
     border-radius: var(--border-radius);
 
-    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition:
+        background-color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out;
 
     cursor: pointer;
 }
