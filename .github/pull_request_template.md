@@ -13,4 +13,4 @@
 - [ ] Accessibility has been tested
 - [ ] Copyright notices are up to date
 - [ ] Documentation is up to date
-- [ ] Pull/merge request has been reviewed and approved
+- [ ] Pull request has been reviewed and approved
