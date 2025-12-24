@@ -11,6 +11,10 @@
     --wrapper-max-width: 55ch;
 }
 
+.wrapper--smaller {
+    --wrapper-max-width: 550px;
+}
+
 .wrapper--small {
     --wrapper-max-width: 700px;
 }
