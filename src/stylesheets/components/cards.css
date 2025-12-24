@@ -4,6 +4,7 @@
 .card {
     --card-padding: var(--space-medium);
     --card-color: currentcolor;
+    --card-color-anchor: var(--color-accent-text);
     --card-background-color: transparent;
 
     position: relative;
@@ -16,6 +17,11 @@
 
     background-color: var(--card-background-color);
     border-radius: var(--border-radius);
+}
+
+.card a,
+.panel .card a {
+    color: var(--card-color-anchor);
 }
 
 .card--large {
@@ -42,21 +48,25 @@
 
 .card--gable {
     --card-color: var(--color-pampas);
+    --card-color-anchor: currentcolor;
     --card-background-color: var(--color-gable);
 }
 
 .card--topaz {
     --card-color: var(--color-rangoon);
+    --card-color-anchor: currentcolor;
     --card-background-color: var(--color-topaz);
 }
 
 .card--caribbean {
     --card-color: var(--color-rangoon);
+    --card-color-anchor: currentcolor;
     --card-background-color: var(--color-caribbean);
 }
 
 .card--danger {
     --card-color: var(--color-white);
+    --card-color-anchor: currentcolor;
     --card-background-color: var(--color-danger-solid);
 }
 
