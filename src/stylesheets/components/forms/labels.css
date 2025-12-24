@@ -6,3 +6,8 @@ label {
 
     font-weight: 600;
 }
+
+.label__help {
+    color: var(--color-grey-text);
+    font-size: var(--font-size-small);
+}
