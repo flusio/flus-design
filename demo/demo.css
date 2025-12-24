@@ -69,6 +69,7 @@
 
 .block--grey-base {
     background-color: var(--color-grey-base);
+    border: 1px solid var(--color-grey-bg);
 }
 
 .block--grey-bg-subtle {
@@ -175,7 +176,6 @@
 
 .block--rangoon {
     background-color: var(--color-rangoon);
-    border: 1px solid var(--color-grey-line);
 }
 
 .block--gable {
