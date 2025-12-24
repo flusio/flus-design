@@ -1,6 +1,10 @@
 /* This file is part of Flus Design. */
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
+.form-group > * + * {
+    margin-top: var(--space-small);
+}
+
 .form-group__caption {
     font-size: var(--font-size-small);
 }
