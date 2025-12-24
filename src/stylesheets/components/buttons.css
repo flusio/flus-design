@@ -104,3 +104,12 @@ button:active:not(:disabled),
     display: block;
     width: 100%;
 }
+
+.button--animated:not([disabled]) > .icon {
+    transition: transform 0.2s ease-in-out;
+}
+
+.button--animated:not([disabled]):hover > .icon,
+.button--animated:not([disabled]):focus > .icon {
+    transform: translateX(5px);
+}
