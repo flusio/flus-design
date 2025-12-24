@@ -19,7 +19,7 @@
   "scripts": {
     "watch": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify --watch=forever src/stylesheets/application.css",
     "build": "esbuild --bundle --loader:.woff2=file --loader:.svg=file --sourcemap --outdir=dist --minify src/stylesheets/application.css",
-    "build:icons": "svg-sprite --symbol --symbol-dest=. --symbol-sprite=icons.svg --dest=dist src/icons/*",
+    "build:icons": "svg-sprite --shape-transform='' --symbol --symbol-dest=. --symbol-sprite=icons.svg --dest=dist src/icons/*",
     "lint": "biome lint --error-on-warnings --config-path=.biome.json && biome format --error-on-warnings --config-path=.biome.json"
   },
   "devDependencies": {
