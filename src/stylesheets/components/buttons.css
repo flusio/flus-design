@@ -99,3 +99,8 @@ button:active:not(:disabled),
 .button--big {
     --button-padding: var(--space-small) var(--space-medium);
 }
+
+.button--block {
+    display: block;
+    width: 100%;
+}
