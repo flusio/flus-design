@@ -105,11 +105,28 @@ button:active:not(:disabled),
     width: 100%;
 }
 
-.button--animated:not([disabled]) > .icon {
+.button--animated .icon--arrow-right,
+.button--animated .icon--arrow-left {
     transition: transform 0.2s ease-in-out;
 }
 
-.button--animated:not([disabled]):hover > .icon,
-.button--animated:not([disabled]):focus > .icon {
+.button--animated:hover .icon--arrow-right,
+.button--animated:focus .icon--arrow-right {
     transform: translateX(5px);
+}
+
+.button--animated:hover .icon--arrow-left,
+.button--animated:focus .icon--arrow-left {
+    transform: translateX(-5px);
+}
+
+.button--animated .icon--sync {
+    animation: icon-spin 5s linear infinite;
+}
+
+button .icon--angle-down,
+.button .icon--angle-down {
+    width: 1.2em;
+
+    vertical-align: middle;
 }
