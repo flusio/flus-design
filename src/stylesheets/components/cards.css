@@ -19,8 +19,8 @@
     border-radius: var(--border-radius);
 }
 
-.card a,
-.panel .card a {
+.card a:not(.button),
+.panel .card a:not(.button) {
     color: var(--card-color-anchor);
 }
 
