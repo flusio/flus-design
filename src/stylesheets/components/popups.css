@@ -1,0 +1,179 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.popup {
+    position: relative;
+
+    display: inline-block;
+}
+
+.popup__opener {
+    height: 100%;
+
+    list-style: none;
+}
+
+.popup__opener::-webkit-details-marker {
+    display: none;
+}
+
+.popup__opener:focus {
+    outline: 0;
+}
+
+.popup__opener:focus > * {
+    outline: var(--outline-width) solid var(--outline-color);
+    outline-offset: var(--outline-offset);
+}
+
+.popup__opener[aria-expanded="true"] .button {
+    background-color: rgb(0 0 0 / 5%);
+    border-color: currentcolor;
+}
+
+.popup__opener[aria-expanded="true"] .button--primary {
+    background-color: var(--color-caribbean);
+}
+
+.popup__container {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+
+    min-width: 15rem;
+    padding: var(--space-small) var(--space-smaller);
+
+    background-color: var(--color-background);
+    box-shadow: 0 0 8px 0 var(--color-box-shadow);
+    border: 1px solid var(--color-grey-border);
+    border-radius: var(--border-radius);
+}
+
+.popup__container--center {
+    right: auto;
+    left: 50%;
+
+    margin-top: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    transform: translateX(-50%);
+}
+
+.popup__container--right {
+    right: 0;
+    left: auto;
+
+    margin-top: 0.5rem;
+}
+
+.popup__container--left {
+    right: auto;
+    left: 0;
+
+    margin-top: 0.5rem;
+}
+
+.popup__container--top {
+    bottom: 100%;
+
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.popup__container--center::before,
+.popup__container--right::before,
+.popup__container--left::before {
+    content: "";
+
+    position: absolute;
+    top: -7px;
+
+    display: block;
+    width: 14px;
+    height: 14px;
+
+    background-color: var(--color-background);
+    border-top: 1px solid var(--color-grey-border);
+    border-left: 1px solid var(--color-grey-border);
+
+    transform: rotate(45deg);
+}
+
+.popup__container--center::before {
+    left: 50%;
+
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.popup__container--right::before {
+    right: 1.75rem;
+}
+
+.popup__container--left::before {
+    left: 1.75rem;
+}
+
+.popup__container--top::before {
+    top: auto;
+    bottom: -7px;
+
+    transform: rotate(225deg);
+}
+
+.popup__item {
+    display: block;
+    width: 100%;
+    padding: var(--space-small);
+
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    border: none;
+    border-radius: var(--border-radius);
+
+    transition: background-color 0.2s ease-in-out;
+}
+
+@media (min-width: 800px) {
+    .popup__item {
+        white-space: nowrap;
+    }
+}
+
+.popup__item:not([disabled]):hover,
+.popup__item:not([disabled]):focus {
+    background-color: var(--color-accent-bg-hover);
+}
+
+.popup__item:not([disabled]):active {
+    background-color: var(--color-accent-bg-active);
+}
+
+.popup__item--selectable {
+    position: relative;
+
+    padding-left: calc(15px + 2 * var(--space-small));
+}
+
+.popup__item--selectable[aria-current="true"]::before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: var(--space-small);
+
+    width: 15px;
+    height: 7px;
+    margin-top: -2px;
+
+    border-bottom: 2px solid currentcolor;
+    border-left: 2px solid currentcolor;
+
+    transform: translateY(-50%) rotate(-45deg);
+}
