@@ -4,6 +4,7 @@
 .card {
     --card-padding: var(--space-medium);
     --card-color: currentcolor;
+    --card-color-secondary: var(--color-grey-text);
     --card-color-anchor: var(--color-accent-text);
     --card-background-color: transparent;
 
@@ -17,6 +18,10 @@
 
     background-color: var(--card-background-color);
     border-radius: var(--border-radius);
+}
+
+.card .text--secondary {
+    color: var(--card-color-secondary);
 }
 
 .card a:not(.button),
@@ -43,30 +48,35 @@
 
 .card--accent {
     --card-color: var(--color-accent-text-contrast);
+    --card-color-secondary: var(--color-accent-text);
     --card-background-color: var(--color-accent-bg-subtle);
 }
 
 .card--gable {
-    --card-color: var(--color-pampas);
+    --card-color: var(--color-olive-dark12);
     --card-color-anchor: currentcolor;
+    --card-color-secondary: var(--color-olive-dark11);
     --card-background-color: var(--color-gable);
 }
 
 .card--topaz {
     --card-color: var(--color-rangoon);
     --card-color-anchor: currentcolor;
+    --card-color-secondary: var(--color-teal12);
     --card-background-color: var(--color-topaz);
 }
 
 .card--caribbean {
     --card-color: var(--color-rangoon);
     --card-color-anchor: currentcolor;
+    --card-color-secondary: var(--color-teal12);
     --card-background-color: var(--color-caribbean);
 }
 
 .card--danger {
     --card-color: var(--color-white);
     --card-color-anchor: currentcolor;
+    --card-color-secondary: var(--color-red-dark12);
     --card-background-color: var(--color-danger-solid);
 }
 
