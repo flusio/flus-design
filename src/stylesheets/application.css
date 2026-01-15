@@ -20,6 +20,7 @@
 @import "./components/cards.css";
 @import "./components/codes.css";
 @import "./components/forms/checkboxes.css";
+@import "./components/forms/fieldsets.css";
 @import "./components/forms/groups.css";
 @import "./components/forms/labels.css";
 @import "./components/forms/radios.css";

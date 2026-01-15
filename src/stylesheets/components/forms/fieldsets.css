@@ -1,0 +1,23 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+fieldset {
+    min-width: auto;
+    padding: var(--space-small);
+
+    background-color: var(--color-background);
+    border: 1px solid var(--color-grey-line);
+    border-radius: var(--border-radius);
+}
+
+@media (min-width: 1100px) {
+    fieldset {
+        padding: var(--space-medium);
+    }
+}
+
+legend {
+    padding: var(--space-smaller) var(--space-small);
+
+    font-weight: 600;
+}
