@@ -5,6 +5,8 @@
     position: relative;
 
     display: inline-block;
+
+    text-align: left;
 }
 
 .popup__opener {
