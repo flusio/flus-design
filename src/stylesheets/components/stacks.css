@@ -1,0 +1,33 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.stack {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.stack--center {
+    justify-content: center;
+}
+
+.stack--gap {
+    gap: var(--space-medium);
+}
+
+.stack--gap-smaller {
+    gap: var(--space-smaller);
+}
+
+.stack--gap-small {
+    gap: var(--space-small);
+}
+
+.stack--gap-large {
+    gap: var(--space-large);
+}
+
+.stack--gap-larger {
+    gap: var(--space-larger);
+}
