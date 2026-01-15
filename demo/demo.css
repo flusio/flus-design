@@ -171,6 +171,54 @@ html {
     background-color: var(--color-danger-text-contrast);
 }
 
+.block--warning-base {
+    background-color: var(--color-warning-base);
+}
+
+.block--warning-bg-subtle {
+    background-color: var(--color-warning-bg-subtle);
+}
+
+.block--warning-bg {
+    background-color: var(--color-warning-bg);
+}
+
+.block--warning-bg-hover {
+    background-color: var(--color-warning-bg-hover);
+}
+
+.block--warning-bg-active {
+    background-color: var(--color-warning-bg-active);
+}
+
+.block--warning-line {
+    background-color: var(--color-warning-line);
+}
+
+.block--warning-border {
+    background-color: var(--color-warning-border);
+}
+
+.block--warning-border-hover {
+    background-color: var(--color-warning-border-hover);
+}
+
+.block--warning-solid {
+    background-color: var(--color-warning-solid);
+}
+
+.block--warning-solid-hover {
+    background-color: var(--color-warning-solid-hover);
+}
+
+.block--warning-text {
+    background-color: var(--color-warning-text);
+}
+
+.block--warning-text-contrast {
+    background-color: var(--color-warning-text-contrast);
+}
+
 .block--white {
     background-color: var(--color-white);
     border: 1px solid var(--color-grey-line);

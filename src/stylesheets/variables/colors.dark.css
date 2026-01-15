@@ -49,4 +49,17 @@
     --color-danger-solid-hover: var(--color-red-dark10);
     --color-danger-text: var(--color-red-dark11);
     --color-danger-text-contrast: var(--color-red-dark12);
+
+    --color-warning-base: var(--color-orange-dark1);
+    --color-warning-bg-subtle: var(--color-orange-dark2);
+    --color-warning-bg: var(--color-orange-dark3);
+    --color-warning-bg-hover: var(--color-orange-dark4);
+    --color-warning-bg-active: var(--color-orange-dark5);
+    --color-warning-line: var(--color-orange-dark6);
+    --color-warning-border: var(--color-orange-dark7);
+    --color-warning-border-hover: var(--color-orange-dark8);
+    --color-warning-solid: var(--color-orange-dark9);
+    --color-warning-solid-hover: var(--color-orange-dark10);
+    --color-warning-text: var(--color-orange-dark11);
+    --color-warning-text-contrast: var(--color-orange-dark12);
 }
