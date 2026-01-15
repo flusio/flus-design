@@ -90,6 +90,30 @@ button:active:not(:disabled),
     aspect-ratio: 1;
 }
 
+@media (max-width: 799px) {
+    .button--icon-mobile {
+        --button-padding: var(--space-smaller);
+
+        border-radius: 100%;
+
+        aspect-ratio: 1;
+    }
+}
+
+button:not(.button--icon) .icon--angle-down,
+.button:not(.button--icon) .icon--angle-down {
+    width: 1.2em;
+
+    vertical-align: middle;
+}
+
+@media (max-width: 799px) {
+    button.button--icon-mobile .icon--angle-down,
+    .button.button--icon-mobile .icon--angle-down {
+        width: 1.5em;
+    }
+}
+
 .button--ghost {
     --button-border-color: transparent;
 }
@@ -132,11 +156,4 @@ button:active:not(:disabled),
 
 .button--animated .icon--sync {
     animation: icon-spin 5s linear infinite;
-}
-
-button:not(.button--icon) .icon--angle-down,
-.button:not(.button--icon) .icon--angle-down {
-    width: 1.2em;
-
-    vertical-align: middle;
 }
