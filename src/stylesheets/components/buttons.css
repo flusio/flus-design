@@ -124,8 +124,8 @@ button:active:not(:disabled),
     animation: icon-spin 5s linear infinite;
 }
 
-button .icon--angle-down,
-.button .icon--angle-down {
+button:not(.button--icon) .icon--angle-down,
+.button:not(.button--icon) .icon--angle-down {
     width: 1.2em;
 
     vertical-align: middle;
