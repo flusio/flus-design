@@ -26,7 +26,7 @@ input[type="radio"] + label {
 }
 
 input[type="radio"] + label::before {
-    --radio-background-color: var(--color-white);
+    --radio-background-color: var(--color-base);
     --radio-border-color: var(--color-grey-solid);
 
     content: "";
@@ -46,10 +46,6 @@ input[type="radio"] + label::before {
     transition:
         border-color 0.2s ease-in-out,
         background-color 0.2s ease-in-out;
-}
-
-[data-color-scheme="dark"] input[type="radio"] + label::before {
-    --radio-background-color: var(--color-rangoon);
 }
 
 input[type="radio"]:focus + label {

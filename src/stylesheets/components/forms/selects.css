@@ -3,7 +3,7 @@
 
 select {
     --select-color: inherit;
-    --select-background-color: var(--color-white);
+    --select-background-color: var(--color-base);
     --select-border-color: var(--color-grey-solid);
     --select-icon-size: 1.5rem;
 
@@ -34,10 +34,6 @@ select:not([multiple]) {
     background-size: var(--select-icon-size);
 
     appearance: none;
-}
-
-[data-color-scheme="dark"] select {
-    --select-background-color: var(--color-rangoon);
 }
 
 [data-color-scheme="dark"] select:not([multiple]) {

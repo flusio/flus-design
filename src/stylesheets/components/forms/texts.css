@@ -4,7 +4,7 @@
 input,
 textarea {
     --input-color: inherit;
-    --input-background-color: var(--color-white);
+    --input-background-color: var(--color-base);
     --input-border-color: var(--color-grey-solid);
 
     width: 100%;
@@ -22,11 +22,6 @@ textarea {
     transition:
         background-color 0.2s ease-in-out,
         border-color 0.2s ease-in-out;
-}
-
-[data-color-scheme="dark"] input,
-[data-color-scheme="dark"] textarea {
-    --input-background-color: var(--color-rangoon);
 }
 
 textarea {

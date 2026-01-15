@@ -30,7 +30,7 @@ input[type="checkbox"][hidden] + label {
 }
 
 input[type="checkbox"] + label::before {
-    --checkbox-background-color: var(--color-white);
+    --checkbox-background-color: var(--color-base);
     --checkbox-border-color: var(--color-grey-solid);
 
     content: "";
@@ -50,10 +50,6 @@ input[type="checkbox"] + label::before {
     transition:
         border-color 0.2s ease-in-out,
         background-color 0.2s ease-in-out;
-}
-
-[data-color-scheme="dark"] input[type="checkbox"] + label::before {
-    --checkbox-background-color: var(--color-rangoon);
 }
 
 input[type="checkbox"]:focus + label {

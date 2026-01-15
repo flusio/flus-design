@@ -34,11 +34,7 @@
 }
 
 .card--base {
-    --card-background-color: var(--color-white);
-}
-
-[data-color-scheme="dark"] .card--base {
-    --card-background-color: var(--color-grey-base);
+    --card-background-color: var(--color-base);
 }
 
 .card--grey {

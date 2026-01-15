@@ -8,6 +8,7 @@
 
     --color-background: var(--color-pampas);
     --color-text: var(--color-rangoon);
+    --color-base: var(--color-white);
     --color-box-shadow: rgb(0 0 0 / 20%);
 
     --color-accent-base: var(--color-teal1);

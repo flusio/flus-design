@@ -36,11 +36,7 @@
 }
 
 .panel--base {
-    --panel-background-color: var(--color-white);
-}
-
-[data-color-scheme="dark"] .panel--base {
-    --panel-background-color: var(--color-grey-base);
+    --panel-background-color: var(--color-base);
 }
 
 .panel--grey {
