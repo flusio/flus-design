@@ -1,0 +1,32 @@
+/* This file is part of Flus Design. */
+/* SPDX-License-Identifier: AGPL-3.0-or-later */
+
+.grid {
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: var(--space-medium) 2%;
+}
+
+.grid--center {
+    justify-content: center;
+}
+
+.grid > * {
+    width: 100%;
+    max-width: 100%;
+
+    flex: 1;
+    flex-basis: auto;
+}
+
+@media (min-width: 800px) {
+    .grid > * {
+        max-width: 32%;
+    }
+}
+
+.grid__placeholder {
+    background: var(--color-grey-base);
+    border-radius: var(--border-radius);
+}
