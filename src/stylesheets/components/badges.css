@@ -6,11 +6,15 @@
     --badge-background-color: var(--color-grey-bg);
     --badge-border-color: transparent;
 
-    padding-right: var(--space-small);
-    padding-left: var(--space-small);
+    overflow: hidden;
+
+    padding-right: var(--space-smaller);
+    padding-left: var(--space-smaller);
 
     color: var(--badge-color);
     font-size: var(--font-size-small);
+    text-decoration: none;
+    text-overflow: ellipsis;
 
     background-color: var(--badge-background-color);
     border: 1px solid var(--badge-border-color);
@@ -28,4 +32,9 @@
 
 .badge--accent.badge--border {
     --badge-border-color: var(--color-accent-line);
+}
+
+.badge--tag {
+    --badge-color: var(--color-gable);
+    --badge-background-color: var(--color-accent-solid);
 }
