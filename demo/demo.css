@@ -1,6 +1,13 @@
 /* This file is part of Flus Design. */
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
+html {
+    padding-top: var(--space-larger);
+    padding-bottom: var(--space-larger);
+
+    background-color: var(--color-background);
+}
+
 .dark-mode-navigation {
     position: fixed;
     top: 0;
