@@ -128,6 +128,7 @@
     width: 100%;
     padding: var(--space-small);
 
+    color: var(--color-text);
     font-weight: normal;
     line-height: 1.5;
     text-align: left;
