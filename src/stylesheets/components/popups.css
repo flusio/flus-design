@@ -187,3 +187,20 @@
 
     transform: translateY(-50%) rotate(-45deg);
 }
+
+.popup__title {
+    margin-bottom: var(--space-smaller);
+    padding-right: var(--space-small);
+    padding-left: var(--space-small);
+
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.popup__separator {
+    height: 1px;
+    margin-top: var(--space-smaller);
+    margin-bottom: var(--space-smaller);
+
+    background-color: var(--color-grey-line);
+}
