@@ -40,3 +40,27 @@ input[aria-invalid="true"],
 textarea[aria-invalid="true"] {
     --input-border-color: var(--color-danger-solid);
 }
+
+.input--size1 {
+    width: calc(1 * 100% / 12);
+}
+
+.input--size2 {
+    width: calc(2 * 100% / 12);
+}
+
+.input--size3 {
+    width: calc(3 * 100% / 12);
+}
+
+.input--size4 {
+    width: calc(4 * 100% / 12);
+}
+
+.input--size5 {
+    width: calc(5 * 100% / 12);
+}
+
+.input--size6 {
+    width: calc(6 * 100% / 12);
+}
