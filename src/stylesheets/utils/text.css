@@ -13,6 +13,12 @@ h3 {
     font-weight: normal;
 }
 
+h1 a,
+h2 a,
+h3 a {
+    display: inline-block;
+}
+
 .text--secondary {
     color: var(--color-grey-text);
 }
