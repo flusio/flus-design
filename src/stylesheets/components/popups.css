@@ -123,6 +123,13 @@
     transform: rotate(225deg);
 }
 
+.popup__container--over {
+    left: 0;
+
+    margin-top: -3rem;
+    margin-left: -0.5rem;
+}
+
 .popup__item {
     display: block;
     width: 100%;
