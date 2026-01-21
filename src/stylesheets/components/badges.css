@@ -34,6 +34,15 @@
     --badge-border-color: var(--color-accent-line);
 }
 
+.badge--warning {
+    --badge-color: var(--color-warning-text-contrast);
+    --badge-background-color: var(--color-warning-bg);
+}
+
+.badge--warning.badge--border {
+    --badge-border-color: var(--color-warning-line);
+}
+
 .badge--tag {
     --badge-color: var(--color-gable);
     --badge-background-color: var(--color-accent-solid);
