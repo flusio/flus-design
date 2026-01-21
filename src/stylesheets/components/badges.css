@@ -2,8 +2,8 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 .badge {
-    --badge-color: var(--color-grey-text);
-    --badge-background-color: var(--color-grey-bg);
+    --badge-color: var(--color-text);
+    --badge-background-color: var(--color-background);
     --badge-border-color: transparent;
 
     overflow: hidden;
