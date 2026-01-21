@@ -40,7 +40,6 @@
     width: var(--alert-icon-zone);
 
     background-color: var(--alert-icon-background);
-    background-image: var(--alert-icon-image);
     background-repeat: no-repeat;
     background-position: center;
     background-size: var(--alert-icon-size);
@@ -50,17 +49,26 @@
 
 .alert--info {
     --alert-icon-background: var(--color-caribbean);
-    --alert-icon-image: url("../../icons/info.svg");
+}
+
+.alert--info::before {
+    background-image: url("../../icons/info.svg");
 }
 
 .alert--success {
     --alert-icon-background: var(--color-caribbean);
-    --alert-icon-image: url("../../icons/success.svg");
+}
+
+.alert--success::before {
+    background-image: url("../../icons/success.svg");
 }
 
 .alert--error {
     --alert-icon-background: var(--color-danger-solid);
-    --alert-icon-image: url("../../icons/error.svg");
+}
+
+.alert--error::before {
+    background-image: url("../../icons/error.svg");
 }
 
 .alert__title {
