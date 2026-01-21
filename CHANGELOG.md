@@ -1,5 +1,21 @@
 # Changelog of Flus Design
 
+## 2026-01-21 - 1.5.0
+
+### Features
+
+- Add new angle-double icon ([f1a0f9c](https://github.com/flusio/flus-design/commit/f1a0f9c))
+- Add new `badge--warning` class ([5808b4b](https://github.com/flusio/flus-design/commit/5808b4b))
+
+### Bug fixes
+
+- Fix normal badge colors ([bc41dae](https://github.com/flusio/flus-design/commit/bc41dae))
+
+### Maintenance
+
+- Fix changing version in make release command ([0e8fb40](https://github.com/flusio/flus-design/commit/0e8fb40))
+- Fix package version in lock file ([fceff52](https://github.com/flusio/flus-design/commit/fceff52))
+
 ## 2026-01-15 - 1.4.0
 
 ### New
