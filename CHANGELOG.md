@@ -1,5 +1,11 @@
 # Changelog of Flus Design
 
+## 2026-01-21 - 1.5.1
+
+### Bug fixes
+
+- Don't declare alert icons as variable ([65e439a](https://github.com/flusio/flus-design/commit/65e439a))
+
 ## 2026-01-21 - 1.5.0
 
 ### Features
