@@ -6,7 +6,7 @@ blockquote {
     --blockquote-background-color: var(--color-accent-bg-subtle);
     --blockquote-icon-color: var(--color-caribbean);
     --blockquote-icon-position: var(--space-small);
-    --blockquote-icon-size: 1.7rem;
+    --blockquote-icon-size: 1.2rem;
 
     position: relative;
 
@@ -49,7 +49,7 @@ blockquote::after {
     content: "";
 
     position: absolute;
-    top: calc(var(--blockquote-icon-size) + var(--blockquote-icon-position));
+    top: calc(var(--blockquote-icon-size) + var(--blockquote-icon-position) + var(--space-smaller));
     bottom: var(--blockquote-icon-position);
     left: -1px;
 
