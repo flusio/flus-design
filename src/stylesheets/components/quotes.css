@@ -2,17 +2,22 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 blockquote {
-    --blockquote-color: var(--color-accent-text-contrast);
-    --blockquote-background-color: var(--color-accent-bg-subtle);
-    --blockquote-icon-color: var(--color-caribbean);
-    --blockquote-icon-position: var(--space-small);
-    --blockquote-icon-size: 1.2rem;
+    --blockquote-color: var(--color-text);
+    --blockquote-background-color: var(--color-background);
+    --blockquote-icon-color: var(--color-topaz);
+    --blockquote-icon-position: calc(
+        (var(--blockquote-padding-y) - var(--blockquote-icon-size)) /
+        2
+    );
+    --blockquote-icon-size: 1rem;
+    --blockquote-padding-x: var(--space-medium);
+    --blockquote-padding-y: var(--space-large);
 
     position: relative;
 
     margin-left: 0;
     margin-right: 0;
-    padding: var(--space-large) var(--space-medium);
+    padding: var(--blockquote-padding-y) var(--blockquote-padding-x);
 
     color: var(--blockquote-color);
     font-style: italic;
@@ -23,7 +28,7 @@ blockquote {
 
 @media (min-width: 800px) {
     blockquote {
-        padding: var(--space-large);
+        --blockquote-padding-x: var(--space-large);
     }
 }
 
@@ -49,18 +54,14 @@ blockquote::after {
     content: "";
 
     position: absolute;
-    top: calc(var(--blockquote-icon-size) + var(--blockquote-icon-position) + var(--space-smaller));
-    bottom: var(--blockquote-icon-position);
+    top: var(--blockquote-padding-y);
+    bottom: var(--blockquote-padding-y);
     left: -1px;
 
     display: block;
     width: 2px;
 
-    background: linear-gradient(
-        to bottom,
-        var(--blockquote-icon-color),
-        var(--blockquote-background-color)
-    );
+    background: var(--blockquote-icon-color);
 }
 
 blockquote > *:first-child {
