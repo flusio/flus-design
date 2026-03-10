@@ -1,5 +1,17 @@
 # Changelog of Flus Design
 
+## 2026-03-10 - 1.6.0
+
+### Features
+
+- Use Lucide icons instead of Clarity icons ([c3199b8](https://github.com/flusio/flus-design/commit/c3199b8))
+- Improve the design of blockquotes ([cd0965c](https://github.com/flusio/flus-design/commit/cd0965c))
+- Add "bars" icon ([c7540fe](https://github.com/flusio/flus-design/commit/c7540fe))
+
+### Maintenance
+
+- Update the dependencies ([f5b3959](https://github.com/flusio/flus-design/commit/f5b3959))
+
 ## 2026-01-21 - 1.5.1
 
 ### Bug fixes
