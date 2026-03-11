@@ -122,8 +122,7 @@ button:not(.button--icon) .icon--angle-down,
 .button--ghost:active:not(:disabled),
 .button--ghost[aria-current="page"]:not(:disabled),
 .button--ghost[aria-expanded="true"]:not(:disabled) {
-    --button-background-color: transparent;
-    --button-border-color: var(--color-grey-solid);
+    --button-border-color: currentcolor;
 }
 
 .button--small {
