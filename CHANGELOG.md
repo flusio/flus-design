@@ -1,5 +1,15 @@
 # Changelog of Flus Design
 
+## 2026-03-11 - 1.6.1
+
+### Features
+
+- Decrease default font size ([8b9c594](https://github.com/flusio/flus-design/commit/8b9c594))
+
+### Bug fixes
+
+- Fix hover ghost buttons design to match default buttons ([ac0fdf0](https://github.com/flusio/flus-design/commit/ac0fdf0))
+
 ## 2026-03-10 - 1.6.0
 
 ### Features
