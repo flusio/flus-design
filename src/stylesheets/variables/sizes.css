@@ -16,6 +16,12 @@
     --space-medium: 1rem;
     --space-large: 2rem;
     --space-larger: 4rem;
+
+    --width-smaller: 35rem;
+    --width-small: 45rem;
+    --width-medium: 62rem;
+    --width-large: 75rem;
+    --width-larger: 85rem;
 }
 
 @media (min-width: 800px) {

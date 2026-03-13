@@ -2,7 +2,7 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later */
 
 .wrapper {
-    --wrapper-max-width: 1000px;
+    --wrapper-max-width: var(--width-medium);
 
     max-width: var(--wrapper-max-width);
 }
@@ -12,19 +12,19 @@
 }
 
 .wrapper--smaller {
-    --wrapper-max-width: 550px;
+    --wrapper-max-width: var(--width-smaller);
 }
 
 .wrapper--small {
-    --wrapper-max-width: 700px;
+    --wrapper-max-width: var(--width-small);
 }
 
 .wrapper--large {
-    --wrapper-max-width: 1200px;
+    --wrapper-max-width: var(--width-large);
 }
 
 .wrapper--larger {
-    --wrapper-max-width: 1400px;
+    --wrapper-max-width: var(--width-larger);
 }
 
 .wrapper--center {
