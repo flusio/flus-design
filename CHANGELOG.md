@@ -1,5 +1,11 @@
 # Changelog of Flus Design
 
+## 2026-03-13 - 1.6.3
+
+### Bug fixes
+
+- Adjust width sizes to better adapt to new font-size ([29c39ad](https://github.com/flusio/flus-design/commit/29c39ad))
+
 ## 2026-03-13 - 1.6.2
 
 ### Bug fixes
