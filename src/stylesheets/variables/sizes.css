@@ -17,11 +17,11 @@
     --space-large: 2rem;
     --space-larger: 4rem;
 
-    --width-smaller: 35rem;
-    --width-small: 45rem;
-    --width-medium: 62rem;
-    --width-large: 75rem;
-    --width-larger: 85rem;
+    --width-smaller: 30rem;
+    --width-small: 40rem;
+    --width-medium: 57rem;
+    --width-large: 70rem;
+    --width-larger: 80rem;
 }
 
 @media (min-width: 800px) {
