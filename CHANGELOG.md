@@ -1,5 +1,15 @@
 # Changelog of Flus Design
 
+## 2026-03-13 - 1.6.2
+
+### Bug fixes
+
+- Increase default font-size on big screens ([b4551f8](https://github.com/flusio/flus-design/commit/b4551f8))
+
+### Maintenance
+
+- Extract wrapper max-width as rem variables ([c895b59](https://github.com/flusio/flus-design/commit/c895b59))
+
 ## 2026-03-11 - 1.6.1
 
 ### Features
