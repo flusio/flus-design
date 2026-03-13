@@ -42,6 +42,12 @@ html {
     font-size: 105%;
 }
 
+@media (min-width: 800px) {
+    html {
+        font-size: 115%;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
