@@ -20,7 +20,6 @@ blockquote {
     padding: var(--blockquote-padding-y) var(--blockquote-padding-x);
 
     color: var(--blockquote-color);
-    font-style: italic;
 
     background-color: var(--blockquote-background-color);
     border-radius: var(--border-radius);
