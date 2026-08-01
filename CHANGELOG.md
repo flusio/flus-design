@@ -1,5 +1,20 @@
 # Changelog of Flus Design
 
+## 2026-08-01 - 1.6.4
+
+### Features
+
+- Add "image-up" icon ([dbeef7f](https://github.com/flusio/flus-design/commit/dbeef7f))
+- Remove italic in blockquotes ([00023c9](https://github.com/flusio/flus-design/commit/00023c9))
+
+### Bug fixes
+
+- Fix arrow position under popup container top & center ([c15c12d](https://github.com/flusio/flus-design/commit/c15c12d))
+
+### Maintenance
+
+- Update the dependencies ([281301b](https://github.com/flusio/flus-design/commit/281301b), [ea8a84a](https://github.com/flusio/flus-design/commit/ea8a84a), [58b0ad2](https://github.com/flusio/flus-design/commit/58b0ad2))
+
 ## 2026-03-13 - 1.6.3
 
 ### Bug fixes
