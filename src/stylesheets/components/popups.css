@@ -123,6 +123,10 @@
     transform: rotate(225deg);
 }
 
+.popup__container--top.popup__container--center::before {
+    transform: translateX(-50%) rotate(225deg);
+}
+
 .popup__container--over {
     left: 0;
 
