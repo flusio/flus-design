@@ -1,5 +1,11 @@
 # Changelog of Flus Design
 
+## 2026-08-05 - 1.6.5
+
+### Features
+
+- Allow popup "over" to be used with positional classes ([2628bfb](https://github.com/flusio/flus-design/commit/2628bfb))
+
 ## 2026-08-01 - 1.6.4
 
 ### Features
