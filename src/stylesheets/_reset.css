@@ -11,8 +11,16 @@ p,
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 ul,
 ol {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+[hidden]:not([hidden="until-found"]) {
+    /* biome-ignore lint/complexity/noImportantStyles: [hidden] has a (0,1,0) specificity that is too low. */
+    display: none !important;
 }
