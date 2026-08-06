@@ -21,6 +21,14 @@
     align-items: baseline;
 }
 
+.cols--always.cols--start {
+    align-items: flex-start;
+}
+
+.cols--always.cols--end {
+    align-items: flex-end;
+}
+
 .cols--always.cols--hcenter {
     justify-content: center;
 }
@@ -32,6 +40,14 @@
 
     .cols--baseline {
         align-items: baseline;
+    }
+
+    .cols--start {
+        align-items: flex-start;
+    }
+
+    .cols--end {
+        align-items: flex-end;
     }
 
     .cols--hcenter {
