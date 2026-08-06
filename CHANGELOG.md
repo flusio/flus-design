@@ -1,5 +1,12 @@
 # Changelog of Flus Design
 
+## 2026-08-06 - 1.6.6
+
+### Features
+
+- Add reset rules to titles and `[hidden]` elements ([05a6125](https://github.com/flusio/flus-design/commit/05a6125))
+- Provide `cols--start` and `cols--end` alternatives ([d665925](https://github.com/flusio/flus-design/commit/d665925))
+
 ## 2026-08-05 - 1.6.5
 
 ### Features
