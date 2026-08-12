@@ -8,8 +8,16 @@
     align-items: center;
 }
 
+.stack--start {
+    justify-content: flex-start;
+}
+
 .stack--center {
     justify-content: center;
+}
+
+.stack--end {
+    justify-content: flex-end;
 }
 
 .stack--gap {
