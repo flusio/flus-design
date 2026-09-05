@@ -1,5 +1,13 @@
 # Changelog of Flus Design
 
+## 2026-09-05 - 1.6.7
+
+### Features
+
+- Provide `stack--start` and `stack--end` alignments ([d5cd7b8](https://github.com/flusio/flus-design/commit/d5cd7b8))
+- Add stream icon ([cb09e0b](https://github.com/flusio/flus-design/commit/cb09e0b))
+- Add icons for the toolbar ([6f4e6c6](https://github.com/flusio/flus-design/commit/6f4e6c6))
+
 ## 2026-08-06 - 1.6.6
 
 ### Features
