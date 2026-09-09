@@ -1,5 +1,19 @@
 # Changelog of Flus Design
 
+## 2026-09-09 - 1.6.8
+
+### Features
+
+- Rename "news" icon to "journal" ([f4c354b](https://github.com/flusio/flus-design/commit/f4c354b))
+
+### Bug fixes
+
+- Fix visibility inside the accessibility nav ([8b907d5](https://github.com/flusio/flus-design/commit/8b907d5))
+
+### Maintenance
+
+- Update the dependencies ([747877e](https://github.com/flusio/flus-design/commit/747877e))
+
 ## 2026-09-05 - 1.6.7
 
 ### Features
