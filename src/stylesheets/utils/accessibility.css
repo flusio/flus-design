@@ -49,6 +49,7 @@
     left: 0.5rem;
     z-index: 1000;
 
+    overflow: visible;
     clip: auto;
 
     width: auto;
