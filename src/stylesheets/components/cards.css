@@ -20,12 +20,12 @@
     border-radius: var(--border-radius);
 }
 
-.card .text--secondary {
+.card .text--secondary:not(.popup__container *) {
     color: var(--card-color-secondary);
 }
 
-.card a:not(.button),
-.panel .card a:not(.button) {
+.card a:not(.button, .popup__container *),
+.panel .card a:not(.button, .popup__container *) {
     color: var(--card-color-anchor);
 }
 
