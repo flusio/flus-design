@@ -1,5 +1,19 @@
 # Changelog of Flus Design
 
+## 2026-10-28 - 1.6.9
+
+### Features
+
+- Add code and smartphone icons ([42d9cf0](https://github.com/flusio/flus-design/commit/42d9cf0))
+
+### Bug fixes
+
+- Fix the popup text colour inside panels and cards ([4725f3a](https://github.com/flusio/flus-design/commit/4725f3a))
+
+### Maintenance
+
+- Update the dependencies ([90b7349](https://github.com/flusio/flus-design/commit/90b7349))
+
 ## 2026-09-09 - 1.6.8
 
 ### Features
